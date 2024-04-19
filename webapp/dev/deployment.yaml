@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginx
+        image: alpine
+        command: ["sleep", "3600"]
         ports:
         - containerPort: 8080
          
