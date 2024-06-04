@@ -15,7 +15,7 @@ spec:
       containers:
       - name: myapp
         image: alpine
-        command: ["sleep", "3600"]
+        command: ["sleep", "360"]
         ports:
         - containerPort: 8080
          
